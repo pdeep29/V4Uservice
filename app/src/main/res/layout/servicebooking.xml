@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".BookService"
+    android:background="@drawable/bg">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/txtselecttime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".BookService">
+
+        <Button
+            android:id="@+id/btnpickdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:background="@color/colorAccent"
+            android:text="Pick Date"
+            android:textColor="@color/design_default_color_on_secondary"/>
+
+        <EditText
+            android:id="@+id/txtdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Selected Date" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Slot TIme"
+            android:textSize="20dp" />
+
+
+        <RadioGroup
+            android:id="@+id/Slottime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtnslot1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="true"
+                android:text="9AM - 11AM" />
+
+            <RadioButton
+                android:id="@+id/rbtnslot2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="true"
+                android:text="12PM - 2PM" />
+
+            <RadioButton
+                android:id="@+id/rbtnslot3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="true"
+                android:text="2PM - 4PM" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Service Type"
+            android:textSize="20sp" />
+
+        <RadioGroup
+
+            android:id="@+id/picktype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbtnpickup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:cursorVisible="true"
+                android:text="Pickup And Drop" />
+
+            <RadioButton
+                android:id="@+id/rbtnvisit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="true"
+                android:text="Visit Center" />
+
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:dropDownWidth="wrap_content"
+            android:padding="10dp"
+            android:scrollbarStyle="insideOverlay" />
+
+        <EditText
+            android:id="@+id/spaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Service Provicer"
+            android:editable="false"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:ems="10"
+            android:hint="Name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" phone number"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/vehicalno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vehical No"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvuspid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:background="@color/colorAccent"
+            android:text="Submit"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:visibility="visible" />
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

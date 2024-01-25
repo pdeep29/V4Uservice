@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">V4U service</string>
+    <string name="title_activity_main" />
+    <string name="title">Title</string>
+    <string name="you_can_write_something_else_here">You can write something else here</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="products">Products</string>
+    <string name="my_profile">My Profile</string>
+    <string name="services">Services</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="notifications">Notifications</string>
+    <string name="title_activity_logout">Logout</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="servicecenterlist">
+        <item>Please select user Type</item>
+        <item>Honda Address:Old Chhani Rd,Vadodara, Gujarat 390024</item>
+        <item>Shakti Auto Centre Address:C-14-15, Sama Rd, Laxmikunj Society, Near Bus Stand, Laxmikunj Society Part 1, Anandvan Society, New Sama, Vadodara, Gujarat 390024 </item>
+        <item> Century Bikes P Ltd - Hero MotoCorp Address:Ground Floor, Pandya Bridge, opposite Polytechnic College, Officers Railway Colony, Nizampura, Vadodara, Gujarat 390002</item>
+    </string-array>
+</resources>

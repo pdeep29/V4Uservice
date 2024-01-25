@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvnam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No:"
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verification Status:"
+        android:textSize="16sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvvstat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="***************************"
+        android:textSize="16sp"></TextView>
+
+
+</LinearLayout>
